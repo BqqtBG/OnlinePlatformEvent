@@ -2,9 +2,9 @@
 
 session_start();
 
-//CreateDB("BigEvent");
-//CreateTable("BigEvent");
-//CreateTableTwo("BigEvent");
+CreateDB("BigEvent");
+CreateTable("BigEvent");
+CreateTableTwo("BigEvent");
 
 function LoginStatus() {
     if (isset($_SESSION['IsUserLogedIn'])) {
